@@ -1,0 +1,90 @@
+Body {
+    Background-Color: Lightblue;
+  }
+#clockContainer{
+   /* border: 2px solid red; */
+   margin: auto;
+    height: 440px;
+    width: 440px;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top:25%;
+    left: 48.8%;
+    opacity:0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top:19%;
+    left: 48.8%;
+    /* display: none; */
+    transform-origin: bottom;
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top:9%;
+    left: 49.3%;
+    /* display: none; */
+    transform-origin: bottom;
+}
+.Audio {
+    Position: Relative;
+    Margin-Left: Auto;
+    Margin-Right: Auto;
+    Height: 40vw;
+    /*To Make The Height And Width Responsive*/
+    Width: 40vw;
+  }
+  
+  /* This Is A Single-Line Comment */
+  
+  .Center {
+    Margin-Left: Auto;
+    Margin-Right: Auto;
+    Width: 60%;
+    Border: 3px Solid #3b21ad;
+    Padding: 10px;
+  }
+  
+  P {
+    Margin-Top: 1em;
+    Margin-Bottom: 1em;
+    Margin-Left: 0;
+    Margin-Right: 0;
+  }
+  
+  Label {
+    Font-Size: 28px;
+  }
+  
+  #Party {
+    Font-Size: 28px;
+    Color: #0320fc;
+  }
+  
+  Form {
+    Margin: 0 Auto;
+    Width: 800px;
+  }
+  
+  #AlarmTime {
+    Font-Size: 28px;
+  }
+  
+  #AlarmButton {
+    Font-Size: 28px;
+  }

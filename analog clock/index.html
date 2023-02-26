@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trk analog-clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Clock Face -->
+    
+    <div id="clockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+    <Br><Br>
+        <Hr>
+    
+        <!-- Day Date Alarm Setting Html -->
+    
+        <Input Id="AlarmTime" Type="Datetime-Local">
+        <Button Id="AlarmButton" Onclick="SetAlarm(This);">Set Alarm</Button>
+    
+        <Div Id="AlarmOptions" Style="Display: None;">
+            <Button Onclick="Snooze();">Snooze 5 Minutes</Button>
+            <Button Onclick="StopAlarm();">Stop Alarm</Button>
+        </Div>
+    <script src="script.js"></script>
+</body>
+</html>
